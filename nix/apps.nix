@@ -32,6 +32,7 @@
   krita
   nwg-look
   qt6Packages.qt6ct
+  parallel-launcher
   ];
 
   ##############
