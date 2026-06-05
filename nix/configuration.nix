@@ -14,6 +14,10 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   
+  environment.sessionVariables = {
+  QT_QPA_PLATFORMTHEME = "qt6ct";
+  QT_QPA_PLATFORM = "wayland;xcb";
+};
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 

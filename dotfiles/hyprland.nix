@@ -19,6 +19,7 @@ wayland.windowManager.hyprland = {
       local fileManager = "dolphin"
       local menu        = "rofi -show drun"
 
+      
       hl.env("HYPRCURSOR_THEME", "rose-pine-hyprcursor")
       hl.env("XCURSOR_SIZE", "24")
       hl.env("HYPRCURSOR_SIZE", "24")

@@ -34,7 +34,8 @@
   qt6Packages.qt6ct
   parallel-launcher
   kdePackages.dolphin
-  ];
+  kdePackages.breeze
+ ];
 
   ##############
   #### apps ####

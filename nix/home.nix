@@ -15,6 +15,15 @@
     colorScheme = "dark";
     };
 
+   services.hyprpolkitagent.enable = true;
+   services.kdeconnect.enable = true;
+   services.hyprpaper.enable = true;
+
+   home.sessionVariables = {
+  QT_QPA_PLATFORMTHEME = "qt6ct";
+  QT_QPA_PLATFORM = "wayland;xcb"; # Forces Qt apps to use Wayland natively
+};
+
   imports =
     [ 
       ../dotfiles/zsh.nix
