@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    hyprland.url = "github:hyprwm/hyprland?ref=v0.36.0";
+    hyprland.url = "github:hyprwm/hyprland";
 
      home-manager = {
        url = "github:nix-community/home-manager";
