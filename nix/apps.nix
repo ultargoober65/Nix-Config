@@ -36,6 +36,7 @@
   parallel-launcher
   kdePackages.dolphin
   kdePackages.breeze
+  kdePackages.ark
   wheelwizard
  ];
 
