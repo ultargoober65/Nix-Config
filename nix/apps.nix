@@ -20,7 +20,7 @@
   pkgs.hyprpolkitagent
   pkgs.gparted
   pkgs.localsend
-  pkgs.xp-pen-deco-01-v2-driver
+  xppen_4
   hyprshot
   inputs.zen-browser.packages.${pkgs.system}.default
   inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
