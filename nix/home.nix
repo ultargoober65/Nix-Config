@@ -17,7 +17,6 @@
 
    services.hyprpolkitagent.enable = true;
    services.kdeconnect.enable = true;
-   services.hyprpaper.enable = true;
 
    home.sessionVariables = {
   QT_QPA_PLATFORMTHEME = "qt6ct";
