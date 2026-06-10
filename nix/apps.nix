@@ -49,7 +49,7 @@
   kdePackages.dolphin
   kdePackages.breeze
   kdePackages.ark
-  nix-index
+  dolphin-emu
  ];
 
   ##############

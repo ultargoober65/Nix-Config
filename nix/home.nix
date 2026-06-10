@@ -10,6 +10,15 @@
     htop
   ];
  
+xdg.desktopEntries.WheelWizard = {
+  name = "WheelWizard";
+  genericName = "WheelWizard";
+  exec = "/home/goober/.apps/WheelWizard_Linux";
+  terminal = false;
+  mimeType = [ ]; 
+  icon = "/home/goober/.icons/wheelwizard.png";
+};
+
   gtk = {
     enable = true;
     colorScheme = "dark";
