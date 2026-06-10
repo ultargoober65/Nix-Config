@@ -39,8 +39,8 @@ wayland.windowManager.hyprland = {
 
       hl.config({
           general = {
-              gaps_in  = 5,
-              gaps_out = 8,
+              gaps_in  = 3,
+              gaps_out = 7,
               border_size = 2,
               col = {
                   active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45 },

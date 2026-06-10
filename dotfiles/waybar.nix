@@ -6,6 +6,7 @@
     settings = {
       mainBar = {
         layer = "top";
+        margin = "5 2 0 5";
         height = 30;
         modules-left = [ "hyprland/workspaces" ];
         modules-center = [ "clock" ];
