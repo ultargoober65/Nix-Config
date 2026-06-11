@@ -19,6 +19,8 @@ xdg.desktopEntries.WheelWizard = {
   icon = "/home/goober/.icons/wheelwizard.png";
 };
 
+   
+
   gtk = {
     enable = true;
     colorScheme = "dark";
@@ -28,9 +30,10 @@ xdg.desktopEntries.WheelWizard = {
    services.kdeconnect.enable = true;
 
    home.sessionVariables = {
-  QT_QPA_PLATFORMTHEME = "qt6ct";
-  QT_QPA_PLATFORM = "wayland;xcb"; # Forces Qt apps to use Wayland natively
-};
+#    QT_QPA_PLATFORM = "wayland;xcb";
+   QT_QPA_PLATFORMTHEME = "qt6ct";
+#    QT_STYLE_OVERRIDE = "kvantum";
+ };
 
   imports =
     [ 

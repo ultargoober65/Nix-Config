@@ -53,8 +53,8 @@ wayland.windowManager.hyprland = {
           decoration = {
               rounding       = 10,
               rounding_power = 2,
-              active_opacity   = 0.9,
-              inactive_opacity = 0.8,
+              active_opacity   = 0.8,
+              inactive_opacity = 0.75,
               shadow = { enabled = true, range = 4, render_power = 3, color = 0xee1a1a1a },
               blur = { enabled = true, size = 3, passes = 3, vibrancy = 0.1696 },          
           },

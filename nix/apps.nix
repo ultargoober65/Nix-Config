@@ -50,6 +50,7 @@
   kdePackages.breeze
   kdePackages.ark
   dolphin-emu
+  catppuccin-kvantum
  ];
 
   ##############
