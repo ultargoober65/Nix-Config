@@ -9,7 +9,8 @@
     git
     htop
   ];
- 
+
+
 xdg.desktopEntries.WheelWizard = {
   name = "WheelWizard";
   genericName = "WheelWizard";
@@ -28,7 +29,8 @@ xdg.desktopEntries.WheelWizard = {
 
    services.hyprpolkitagent.enable = true;
    services.kdeconnect.enable = true;
-
+   services.syncthing.enable = true;
+     
    home.sessionVariables = {
 #    QT_QPA_PLATFORM = "wayland;xcb";
    QT_QPA_PLATFORMTHEME = "qt6ct";

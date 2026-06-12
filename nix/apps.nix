@@ -2,6 +2,7 @@
 
 {
 
+
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
     icu
@@ -57,6 +58,7 @@
   #### apps ####
   ##############
   
+
   programs.xppen.enable = true;
 
   programs.zsh.enable = true;
@@ -86,4 +88,6 @@
   programs.localsend = {
   enable = true;
   };
+
+
 }
