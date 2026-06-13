@@ -30,7 +30,9 @@
       specialArgs = {inherit inputs;};
       modules = [
         ./configuration.nix
-
+        {
+          nixpkgs.config.allowUnfree = true;
+        }
          inputs.home-manager.nixosModules.default
 {
          home-manager.users.goober = import ./home.nix;

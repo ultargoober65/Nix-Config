@@ -89,5 +89,13 @@
   enable = true;
   };
 
+programs.nh.enable = true;
+
+services.syncthing = {
+  enable = true;
+  user = "goober";
+  configDir = "/home/goober/.config/syncthing";
+  dataDir = "/home/goober/.local/share/syncthing";
+};
 
 }

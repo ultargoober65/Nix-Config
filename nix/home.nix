@@ -29,7 +29,7 @@ xdg.desktopEntries.WheelWizard = {
 
    services.hyprpolkitagent.enable = true;
    services.kdeconnect.enable = true;
-   services.syncthing.enable = true;
+   services.dunst.enable = true;
      
    home.sessionVariables = {
 #    QT_QPA_PLATFORM = "wayland;xcb";
